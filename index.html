@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>HackMaster - Elite Hacking Courses</title>
+  <meta name="description" content="Master ethical hacking and cybersecurity skills with expert-led courses">
+  <link rel="stylesheet" href="./style.css">
+  <script>
+    function updateTimer() {
+      const now = new Date();
+      document.getElementById('timer').innerText = `Current Hack Time: ${now.toLocaleTimeString()}`;
+    }
+    setInterval(updateTimer, 1000);
+  </script>
+</head>
+
+<body onload="updateTimer()">
+  <header class="header">
+    <div class="container">
+      <a href="#" class="logo">
+        <img src="./course imge/logo.png" alt="HackMaster Logo">
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container">
+        <h1>Master Ethical Hacking & Cybersecurity</h1>
+        <p>Join the elite hackers and learn to protect systems like a pro.</p>
+        <a href="#courses" class="btn">Start Hacking Now</a>
+        <div class="timer" id="timer"></div>
+      </div>
+    </section>
+
+    <section class="section courses" id="courses">
+      <div class="container">
+        <p class="section-subtitle">Elite Hacking Courses</p>
+        <h2 class="h2 section-title">Train with Cybersecurity Experts</h2>
+        <p class="section-text">Protect, defend, and break into systems ethically.</p>
+
+        <div class="course-list">
+          <div class="course-card">
+            <img src="./course imge/android_hacking.jpg" alt="Beginner Ethical Hacking">
+            <h3 class="h3">Android hacking</h3>
+            <p>Learn Android hacking Basic to Advance</p>
+            <p class="course-price">199 Rs</p>
+            <a href="./payment/form1.html" class="btn">Buy Now</a>
+          </div>
+
+          <div class="course-card">
+            <img src="./course imge/social media.webp" alt="Advanced Cybersecurity">
+            <h3 class="h3">Social media hacking</h3>
+            <p>Learn the social media hacking.</p>
+            <p>No need of pc.</p>
+            <p class="course-price">99 Rs</p>
+            <a href="./payment/form2.html" class="btn">Buy Now</a>
+          </div>
+
+          <div class="course-card">
+            <img src="./course imge/location_hacking.webp" alt="Dark Web & Anonymity">
+            <h3 class="h3">Location hacking</h3>
+            <p>Learn to hack anyones location in 2min.</p>
+            <p>No need of pc.</p>
+            <p class="course-price">49 Rs</p>
+            <a href="./payment/form3.html" class="btn">Buy Now</a>
+            </div>
+
+          <div class="course-card">
+            <img src="./course imge/website_hacking.jpg" alt="Dark Web & Anonymity">
+            <h3 class="h3">website hacking</h3>
+            <p>Learn to hack any website.</p>
+            <p class="course-price">149 Rs</p>
+            <a href="./payment/form4.html" class="btn">Buy Now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2024 HackMaster. All Rights Reserved.</p>
+    </div>
+  </footer>
+</body>
+
+</html>
